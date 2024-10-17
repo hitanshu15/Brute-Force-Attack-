@@ -44,7 +44,7 @@ while True:
         if length_ == 4:
             print()  # If it's 4 characters, stop generating more characters
 
-    # Step 3: Compare the brute force attempt with the original password
+# Step 3: Compare the brute force attempt with the original password
     if brute_Force_Attack != original_password:
         print(brute_Force_Attack, '*===*', original_password)  # Print both passwords for comparison
         print("Password is not hacked.")  # Inform that the password has not been hacked yet
