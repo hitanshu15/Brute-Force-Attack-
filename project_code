@@ -1,0 +1,47 @@
+import random as ran 
+
+original_password = [ ]
+for i in range(4):
+    a = chr(ran.randint(60,70))
+    b = str(a) 
+    c = original_password.append(b)
+    length =(len(original_password))
+    print (length)
+    if length == 4:
+        pass
+        break
+
+while True:
+    brute_Force_Attack = [ ]
+
+    for i in range(4):
+            Simple_password = (chr(ran.randint(60,70)))
+            string_con = str(Simple_password)
+            brute_Force_Attack.append(string_con)
+            length_ = (len(brute_Force_Attack))
+            if length_== 4:
+          
+                print ()
+                 
+    if brute_Force_Attack != original_password:
+        print(brute_Force_Attack,'*===*',original_password)
+        print ("password is not hacked ")
+    
+    else:
+        brute_Force_Attack == original_password
+        print(brute_Force_Attack,'*===*',original_password)
+        print (' password is hacked '.upper())
+        break
+    
+        
+   
+
+
+
+    
+    
+  
+     
+
+
+
